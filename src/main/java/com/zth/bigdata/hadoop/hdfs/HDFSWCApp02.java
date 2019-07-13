@@ -1,15 +1,12 @@
 package com.zth.bigdata.hadoop.hdfs;
 
-import com.sun.tools.internal.jxc.ap.Const;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URI;
-import java.util.HashMap;
 import java.util.Map;
-import java.util.Properties;
 import java.util.Set;
 
 /**
@@ -23,28 +20,26 @@ import java.util.Set;
  * 3. 将处理结果缓存起来 ==> Context
  * 4. 将结果输出到HDFS ==> HDFS API
  */
-public class HDFSWCApp01 {
-    public static void main(String[] args) throws Exception {
+public class HDFSWCApp02 {
+    public static void main(String[] args) throws Exception{
         // 1. 读取HDFS上的文件 ==> HDFS API
-
-        Properties properties = ParamsUtils.getProperties();
-        Path input = new Path(properties.getProperty(Constants.INPUT_PATH));
+        Path input = new Path("/hdfsapi/test/c.txt");
 
         // 获取到要操作的HDFS文件系统
-        FileSystem fs = FileSystem.get(new URI(properties.getProperty(Constants.HDFS_URL)), new Configuration(), "3zz");
+        FileSystem fs = FileSystem.get(new URI("hdfs://localhost:8020"), new Configuration(), "3zz");
 
         RemoteIterator<LocatedFileStatus> iterator = fs.listFiles(input, false);
 
         ZthMapper mapper = new WordCountMapper();
         ZthContext context = new ZthContext();
 
-        while (iterator.hasNext()) {
+        while(iterator.hasNext()){
             LocatedFileStatus file = iterator.next();
             FSDataInputStream in = fs.open(file.getPath());
             BufferedReader reader = new BufferedReader(new InputStreamReader(in));
 
             String line = "";
-            while ((line = reader.readLine()) != null) {
+            while((line = reader.readLine()) != null){
                 // 2. 业务处理(词频统计)
                 // TODO... 在业务逻辑完成之后将结果写到Cache中去
                 mapper.map(line, context);
@@ -58,12 +53,12 @@ public class HDFSWCApp01 {
         Map<Object, Object> contextMap = context.getCacheMap();
 
         // 4. 将结果输出到HDFS ==> HDFS API
-        Path output = new Path(properties.getProperty(Constants.OUTPUT_PATH));
-        FSDataOutputStream out = fs.create(new Path(output, new Path(properties.getProperty(Constants.OUTPUT_FILE))));
+        Path output = new Path("/hdfsapi/output/");
+        FSDataOutputStream out = fs.create(new Path(output, new Path("wc.out")));
 
         // TODO... 将第三布缓存中的内容输出到out中去
         Set<Map.Entry<Object, Object>> entries = contextMap.entrySet();
-        for (Map.Entry<Object, Object> entry : entries) {
+        for(Map.Entry<Object, Object> entry: entries) {
             out.write((entry.getKey().toString() + "\t" + entry.getValue() + "\n").getBytes());
         }
         out.close();
