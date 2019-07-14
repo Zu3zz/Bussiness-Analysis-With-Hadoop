@@ -7,6 +7,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URI;
 import java.util.Map;
+import java.util.Properties;
 import java.util.Set;
 
 /**
@@ -23,14 +24,21 @@ import java.util.Set;
 public class HDFSWCApp02 {
     public static void main(String[] args) throws Exception{
         // 1. 读取HDFS上的文件 ==> HDFS API
-        Path input = new Path("/hdfsapi/test/c.txt");
+
+        Properties properties = ParamsUtils.getProperties();
+        Path input = new Path(properties.getProperty(Constants.INPUT_PATH));
 
         // 获取到要操作的HDFS文件系统
-        FileSystem fs = FileSystem.get(new URI("hdfs://localhost:8020"), new Configuration(), "3zz");
+        FileSystem fs = FileSystem.get(new URI(properties.getProperty(Constants.HDFS_URL)), new Configuration(), "3zz");
 
         RemoteIterator<LocatedFileStatus> iterator = fs.listFiles(input, false);
 
-        ZthMapper mapper = new WordCountMapper();
+        // TODO... 通过反射创建对象
+        Class<?> clazz = Class.forName(properties.getProperty(Constants.MAPPER_CLASS));
+
+        ZthMapper mapper = (ZthMapper)clazz.newInstance();
+
+
         ZthContext context = new ZthContext();
 
         while(iterator.hasNext()){
@@ -53,8 +61,8 @@ public class HDFSWCApp02 {
         Map<Object, Object> contextMap = context.getCacheMap();
 
         // 4. 将结果输出到HDFS ==> HDFS API
-        Path output = new Path("/hdfsapi/output/");
-        FSDataOutputStream out = fs.create(new Path(output, new Path("wc.out")));
+        Path output = new Path(properties.getProperty(Constants.OUTPUT_PATH));
+        FSDataOutputStream out = fs.create(new Path(output, new Path(properties.getProperty(Constants.OUTPUT_FILE))));
 
         // TODO... 将第三布缓存中的内容输出到out中去
         Set<Map.Entry<Object, Object>> entries = contextMap.entrySet();
