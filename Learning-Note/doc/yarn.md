@@ -29,37 +29,39 @@ slave: NodeManager (NM)
   + NodeManager通信
   + 任务的监控
 
-NodeManager： 多个
-	干活
-	向RM发送心跳信息、任务的执行情况
-	接收来自RM的请求来启动任务
-	处理来自AM的命令
+- NodeManager： 多个
+  - 干活
+  - 向RM发送心跳信息、任务的执行情况
+  - 接收来自RM的请求来启动任务
+  - 处理来自AM的命令
 
-ResourceManager:集群中同一时刻对外提供服务的只有1个，负责资源相关
-	处理来自客户端的请求：提交、杀死
-	启动/监控AM
-	监控NM
-	资源相关
+- ResourceManager:集群中同一时刻对外提供服务的只有1个，负责资源相关
+  - 处理来自客户端的请求：提交、杀死
+  - 启动/监控AM
+  - 监控NM
+  - 资源相关
 
-container：任务的运行抽象
-	memory、cpu....
-	task是运行在container里面的
-	可以运行am、也可以运行map/reduce task
+- container：任务的运行抽象
+  - memory、cpu....
+  - task是运行在container里面的
+  - 可以运行am、也可以运行map/reduce task
+	
+## yarn执行流程
+![yarn执行流程](../static/work-flow.png)
 
 
 
-
-提交自己开发的MR作业到YARN上运行的步骤：
-1）mvn clean package -DskipTests  
+## 提交自己开发的MR作业到YARN上运行的步骤：
+1. mvn clean package -DskipTests  打包jar包  
 	windows/Mac/Linux ==> Maven 
-2）把编译出来的jar包(项目根目录/target/...jar)以及测试数据上传到服务器
+2. 把编译出来的jar包(项目根目录/target/...jar)以及测试数据上传到服务器  
 	scp xxxx hadoop@hostname:directory
-3) 把数据上传到HDFS
+3. 把数据上传到HDFS  
 	hadoop fs -put xxx hdfspath
-4) 执行作业
+4. 执行作业 
 	hadoop jar xxx.jar 完整的类名(包名+类名) args.....	
-5) 到YARN UI(8088) 上去观察作业的运行情况
-6）到输出目录去查看对应的输出结果
+5. 到YARN UI(8088) 上去观察作业的运行情况
+6. 到输出目录去查看对应的输出结果
 
 
 

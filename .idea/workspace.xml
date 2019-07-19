@@ -18,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/AccessLocalApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+            <state relative-caret-position="730">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,10 +30,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountApp.java">
+        <entry file="file://$PROJECT_DIR$/Learning-Note/doc/yarn.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="949">
+                <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/AccessYARNlApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="810">
+              <caret line="36" column="62" lean-forward="true" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/HDFSWCApp01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,10 +63,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0-cdh5.15.1/hadoop-mapreduce-client-core-2.6.0-cdh5.15.1-sources.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/HDFSWCApp02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="322" column="12" selection-start-line="322" selection-start-column="12" selection-end-line="322" selection-end-column="12" />
+            <state relative-caret-position="485">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zth/bigdata/hadoop/hdfs/HDFSApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,25 +103,39 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zth/bigdata/hadoop/hdfs/HDFSApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/HDFSWCAPP01.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/ZthContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/ZthMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/WordCountMapper.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/doc/Hadoop-Learning-Note/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/ParamsUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/HDFSWCApp03.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/HDFSWCApp01.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/HDFSWCApp02.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/CaseIgnoreWordCountMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/wc.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountReducer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountLocalApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountCombinerLocalApp.java" />
+        <option value="$PROJECT_DIR$/input/h.txt" />
+        <option value="$PROJECT_DIR$/doc/Hadoop-Learning-Note/doc/install.md" />
+        <option value="$PROJECT_DIR$/doc/Hadoop-Learning-Note/doc/mapreduce.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/AccessMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/Access.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/AccessReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/AccessPartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/AccessLocalApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/readme.md" />
+        <option value="$PROJECT_DIR$/doc/Hadoop-Learning-Note/README.md" />
+        <option value="$PROJECT_DIR$/doc/Hadoop-Learning-Note/doc/yarn.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/AccessYARNlApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/HDFSWCApp01.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zth/bigdata/hadoop/hdfs/HDFSApp.java" />
+        <option value="$PROJECT_DIR$/Learning-Note/doc/yarn.md" />
       </list>
     </option>
   </component>
@@ -119,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,6 +179,34 @@
             <path>
               <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
+              <item name="Learning-Note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
+              <item name="Learning-Note" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
+              <item name="Learning-Note" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -160,36 +237,59 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Learning-Note/static" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Learning-Note/static" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/doc/Hadoop-Learning-Note/static" />
+      <recent name="$PROJECT_DIR$/doc/Hadoop-Learning-Note/doc" />
+      <recent name="$PROJECT_DIR$/doc" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zth.bigdata.hadoop.mapreduce.access" />
       <recent name="com.zth.bigdata.hadoop.hdfs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Learning-Note/static" />
+      <recent name="$PROJECT_DIR$/access/input" />
+      <recent name="$PROJECT_DIR$/doc/Hadoop-Learning-Note/doc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -204,13 +304,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordCountApp">
-    <configuration name="HDFSWCApp01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zth.bigdata.hadoop.hdfs.HDFSWCApp01" />
+  <component name="RunManager" selected="Application.AccessLocalApp">
+    <configuration name="AccessLocalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zth.bigdata.hadoop.mapreduce.access.AccessLocalApp" />
       <module name="hadoop-train" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zth.bigdata.hadoop.hdfs.*" />
+          <option name="PATTERN" value="com.zth.bigdata.hadoop.mapreduce.access.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,19 +320,6 @@
     </configuration>
     <configuration name="HDFSWCApp02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zth.bigdata.hadoop.hdfs.HDFSWCApp02" />
-      <module name="hadoop-train" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zth.bigdata.hadoop.hdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParamsUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zth.bigdata.hadoop.hdfs.ParamsUtils" />
       <module name="hadoop-train" />
       <extension name="coverage">
         <pattern>
@@ -257,29 +344,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HDFSApp.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WordCountCombinerLocalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zth.bigdata.hadoop.mapreduce.wordcount.WordCountCombinerLocalApp" />
       <module name="hadoop-train" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zth.bigdata.hadoop.hdfs.*" />
+          <option name="PATTERN" value="com.zth.bigdata.hadoop.mapreduce.wordcount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zth.bigdata.hadoop.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.zth.bigdata.hadoop.hdfs.HDFSApp" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountLocalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zth.bigdata.hadoop.mapreduce.wordcount.WordCountLocalApp" />
+      <module name="hadoop-train" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zth.bigdata.hadoop.mapreduce.wordcount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccessLocalApp" />
+        <item itemvalue="Application.WordCountCombinerLocalApp" />
+        <item itemvalue="Application.WordCountLocalApp" />
         <item itemvalue="Application.WordCountApp" />
         <item itemvalue="Application.HDFSWCApp02" />
-        <item itemvalue="Application.HDFSWCApp01" />
-        <item itemvalue="Application.ParamsUtils" />
-        <item itemvalue="JUnit.HDFSApp.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +401,13 @@
       <workItem from="1563082907480" duration="4579000" />
       <workItem from="1563118105942" duration="617000" />
       <workItem from="1563164548906" duration="1405000" />
-      <workItem from="1563194723840" duration="7155000" />
+      <workItem from="1563194723840" duration="7254000" />
+      <workItem from="1563206432997" duration="4382000" />
+      <workItem from="1563280382308" duration="1890000" />
+      <workItem from="1563376832452" duration="5958000" />
+      <workItem from="1563512200755" duration="747000" />
+      <workItem from="1563515664808" duration="431000" />
+      <workItem from="1563525338417" duration="2104000" />
     </task>
     <task id="LOCAL-00001" summary="update readme">
       <created>1563033135489</created>
@@ -370,7 +473,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37312000" />
+    <option name="totallyTimeSpent" value="52923000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,7 +488,7 @@
     <frame x="1682" y="-170" width="1891" height="1416" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15846403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25202814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -395,7 +498,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35397553" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2469419" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3998471" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,6 +519,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32990807" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,160 +540,11 @@
     <SUITE FILE_PATH="coverage/hadoop_train$WordCountApp.ic" NAME="WordCountApp Coverage Results" MODIFIED="1563206328485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.zth.bigdata.hadoop.mapreduce.wordcount.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/hadoop_train$AccessLocalApp.ic" NAME="AccessLocalApp Coverage Results" MODIFIED="1563540009726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zth.bigdata.hadoop.mapreduce.access.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zth/bigdata/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/App.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.15.1/hadoop-common-2.6.0-cdh5.15.1.jar!/org/apache/hadoop/fs/FileSystem.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="71" column="14" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-hdfs/2.6.0-cdh5.15.1/hadoop-hdfs-2.6.0-cdh5.15.1.jar!/hdfs-default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="434" column="15" selection-start-line="434" selection-start-column="8" selection-end-line="434" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zth/bigdata/hadoop/hdfs/HDFSApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="149" column="33" selection-start-line="149" selection-start-column="33" selection-end-line="149" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4220#4221#0" expanded="true" />
-            <element signature="e#4292#4293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.15.1/hadoop-common-2.6.0-cdh5.15.1-sources.jar!/org/apache/hadoop/fs/FileStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="232" column="14" selection-start-line="232" selection-start-column="14" selection-end-line="232" selection-end-column="14" />
-          <folding>
-            <element signature="e#7266#7267#0" expanded="true" />
-            <element signature="e#7287#7288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="359" column="24" selection-start-line="359" selection-start-column="4" selection-end-line="359" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.15.1/hadoop-common-2.6.0-cdh5.15.1-sources.jar!/org/apache/hadoop/fs/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="782" column="9" selection-start-line="782" selection-start-column="9" selection-end-line="782" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="967" column="18" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/HDFSWCApp02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/Hadoop-Learning-Note/doc/yarn.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1058" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/Hadoop-Learning-Note/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="594">
-            <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/Hadoop-Learning-Note/doc/install.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/Hadoop-Learning-Note/doc/HDFS.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml" />
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-514" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0-cdh5.15.1/hadoop-mapreduce-client-core-2.6.0-cdh5.15.1.jar!/org/apache/hadoop/mapred/Reducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0-cdh5.15.1/hadoop-mapreduce-client-core-2.6.0-cdh5.15.1.jar!/org/apache/hadoop/mapred/InputFormat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0-cdh5.15.1/hadoop-mapreduce-client-core-2.6.0-cdh5.15.1.jar!/org/apache/hadoop/mapred/Mapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -684,16 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/HDFSWCApp01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="33" column="90" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/WordCountMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -770,10 +715,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Learning-Note/static/h.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        <state relative-caret-position="191">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/readme/md.java" />
+    <entry file="file://$PROJECT_DIR$/hadoop-train.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/Hadoop-Learning-Note/doc/access.log" />
+    <entry file="file://$PROJECT_DIR$/access/input/access.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/Access.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/AccessMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountLocalApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountCombinerLocalApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/AccessReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -782,11 +797,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="820">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access/output/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access/output/part-r-00001">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access/output/part-r-00002">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning-Note/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="891">
+            <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning-Note/doc/HDFS.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning-Note/doc/install.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="7371">
+            <caret line="273" column="17" selection-start-line="273" selection-start-column="17" selection-end-line="273" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning-Note/doc/mapreduce.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/AccessPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/AccessLocalApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/HDFSWCApp01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/hdfs/HDFSWCApp02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning-Note/static/access.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zth/bigdata/hadoop/hdfs/HDFSApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/access/AccessYARNlApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="36" column="62" lean-forward="true" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning-Note/doc/yarn.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="949">
+            <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

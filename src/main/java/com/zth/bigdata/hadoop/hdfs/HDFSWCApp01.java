@@ -1,6 +1,5 @@
 package com.zth.bigdata.hadoop.hdfs;
 
-import com.sun.tools.internal.jxc.ap.Const;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
 

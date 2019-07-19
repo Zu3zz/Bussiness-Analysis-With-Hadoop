@@ -6,7 +6,6 @@ import org.apache.hadoop.io.IOUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import sun.jvm.hotspot.opto.Block;
 
 import java.net.URI;
 

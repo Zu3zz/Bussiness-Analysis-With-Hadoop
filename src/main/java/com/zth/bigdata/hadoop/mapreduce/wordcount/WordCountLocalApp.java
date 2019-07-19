@@ -1,7 +1,6 @@
 package com.zth.bigdata.hadoop.mapreduce.wordcount;
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -9,22 +8,16 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-import java.net.URI;
-
 /**
  * Author: 3zZ.
- * Date: 2019-07-15 21:41
- * 使用MapReduce统计HDFS上的文件对应的词频
+ * Date: 2019-07-16 00:00
  *
- * Driver: 配置Mapper，Reducer的相关属性
- *
- * 提交到本地运行: 开发过程中使用
+ * 使用本地文件进行统计，然后统计结果输出到本地路径
  */
-public class WordCountApp {
+public class WordCountLocalApp {
     public static void main(String[] args) throws Exception {
 
         Configuration configuration = new Configuration();
-        configuration.set("fs.defaultFS","hdfs://localhost:8020");
         // 创建一个Job
         Job job = Job.getInstance(configuration);
 
@@ -42,16 +35,9 @@ public class WordCountApp {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
 
-        // 如果输出目录已经存在，则先删除
-        FileSystem fileSystem = FileSystem.get(new URI("hdfs://localhost:8020"), configuration, "3zz");
-        Path outputPath = new Path("/wordcount/output");
-        if(fileSystem.exists(outputPath)){
-            fileSystem.delete(outputPath, true);
-        }
-
         // 设置Job对应的参数: 作业输入和输出的路径
-        FileInputFormat.setInputPaths(job, new Path("/wordcount/input"));
-        FileOutputFormat.setOutputPath(job,outputPath);
+        FileInputFormat.setInputPaths(job, new Path("input"));
+        FileOutputFormat.setOutputPath(job, new Path("output"));
 
         // 提交job
         boolean result = job.waitForCompletion(true);

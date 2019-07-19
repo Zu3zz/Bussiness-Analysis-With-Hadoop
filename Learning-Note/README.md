@@ -24,14 +24,14 @@
 
 ### MapReduce
 
-![基础计数例子](./MapReduce-1.png)步骤分为input splitting mapping shuffing reducing和计算出final result
+![基础计数例子](static/MapReduce-1.png)步骤分为input splitting mapping shuffing reducing和计算出final result
 
 ### YARN
 
 * Yet Another Resource Negotiator
 * 负责整个集群资源的管理和调度
 * 多框架资源统一调度
-![框架图](./Yarn-1.png)
+![框架图](static/Yarn-1.png)
 
 ### 去IoE
 
