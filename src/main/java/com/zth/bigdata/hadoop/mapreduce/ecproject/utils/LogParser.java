@@ -19,7 +19,7 @@ public class LogParser {
         if (StringUtils.isNotBlank(log)) {
             String[] splits = log.split("\u0001");
 
-            String ip = splits[9];
+            String ip = splits[13];
             String country = "-";
             String province = "-";
             String city = "-";

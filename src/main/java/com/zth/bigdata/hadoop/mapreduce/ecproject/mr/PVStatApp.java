@@ -1,6 +1,7 @@
 package com.zth.bigdata.hadoop.mapreduce.ecproject.mr;
 
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;
@@ -22,6 +23,13 @@ public class PVStatApp {
     public static void main(String[] args) throws Exception {
 
         Configuration configuration = new Configuration();
+
+        FileSystem fileSystem = FileSystem.get(configuration);
+        Path outputPath = new Path("access/output/v1/pvstat");
+        if(fileSystem.exists(outputPath)){
+            fileSystem.delete(outputPath,true);
+        }
+
         Job job = Job.getInstance(configuration);
         job.setJarByClass(PVStatApp.class);
 
