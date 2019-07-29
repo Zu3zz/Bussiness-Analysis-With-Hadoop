@@ -33,7 +33,7 @@ public class ProvinceStatApp {
         }
 
         Job job = Job.getInstance(configuration);
-        job.setJarByClass(PVStatApp.class);
+        job.setJarByClass(ProvinceStatApp.class);
 
         job.setMapperClass(MyMapper.class);
 
