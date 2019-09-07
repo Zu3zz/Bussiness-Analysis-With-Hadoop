@@ -1,1 +1,3 @@
 com/zth/bigdata/hadoop/hdfs/HDFSApp.class
+com/zth/bigdata/hadoop/mapreduce/ecproject/utils/IPTest.class
+com/zth/bigdata/hadoop/mapreduce/ecproject/utils/LogParseTest.class
