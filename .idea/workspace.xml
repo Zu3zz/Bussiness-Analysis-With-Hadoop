@@ -19,93 +19,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/zth/bigdata/hadoop/mapreduce/ecproject/utils/IPTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/utils/IPParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-              <folding>
-                <element signature="e#5263#5264#0" expanded="true" />
-                <element signature="e#5301#5302#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/utils/ContentUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/utils/LogParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/ETLApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/PVStatV2App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/ProvinceStatV2App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/PageStatV2App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1193">
-              <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -172,10 +86,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mr/ProvinceStatApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/ETLApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/PVStatV2App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/utils/LogParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/ProvinceStatV2App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/utils/GetPageId.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/PageStatV2App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/utils/LogParser.java" />
       </list>
     </option>
   </component>
@@ -209,45 +123,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
-              <item name="access" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
-              <item name="access" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
-              <item name="access" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-              <item name="etl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
-              <item name="access" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-train" type="462c0819:PsiDirectoryNode" />
-              <item name="access" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-              <item name="v2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop-train" type="b2602c69:ProjectViewProjectNode" />
@@ -309,6 +190,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -466,7 +349,8 @@
       <workItem from="1563708466903" duration="6740000" />
       <workItem from="1563896146144" duration="1506000" />
       <workItem from="1564322759190" duration="7181000" />
-      <workItem from="1564376948669" duration="7211000" />
+      <workItem from="1564376948669" duration="7654000" />
+      <workItem from="1564928302846" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="update readme">
       <created>1563033135489</created>
@@ -532,7 +416,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77159000" />
+    <option name="totallyTimeSpent" value="77622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,9 +429,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="-171" width="1707" height="1417" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1921922" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19459459" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -557,7 +440,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925898" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24675325" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24675325" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954165" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -604,16 +487,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/wordcount/WordCountApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/access/output/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/access/output/part-r-00001" />
     <entry file="file://$PROJECT_DIR$/access/output/part-r-00002" />
@@ -856,13 +729,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/access/output/v1/pagestat/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/access/output/v1/pagestat/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -948,28 +815,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/ETLApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/access/output/v2/pvstat/part-r-00000">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/utils/LogParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/access/output/v2/provincestat/part-r-00000">
       <provider selected="true" editor-type-id="text-editor" />
@@ -991,27 +838,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/utils/GetPageId.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/utils/GetPageId.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/ProvinceStatV2App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="358">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/ETLApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/ProvinceStatV2App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/utils/LogParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+        <state relative-caret-position="675">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access/output/v2/pagestat/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zth/bigdata/hadoop/mapreduce/ecproject/mrv2/PageStatV2App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1193">
-          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        <state relative-caret-position="517">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
         </state>
       </provider>
     </entry>
