@@ -17,7 +17,7 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
         <!--定义Hadoop版本-->
-        <hadoop.version>2.6.0-cdh5.15.1</hadoop.version>
+        <hadoop.version>2.7.0</hadoop.version>
     </properties>
 
     <!--引入cdh的仓库-->
